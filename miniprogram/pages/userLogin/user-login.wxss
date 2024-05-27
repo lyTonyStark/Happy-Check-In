@@ -1,0 +1,80 @@
+/* pages/userLogin/user-login.wxss */
+.weixin-login {
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  width: auto;
+  margin-top: 20rpx;
+  /* border-style: ridge; */
+  /* background-color: yellow; */
+  
+}
+.headshot {
+  border-radius: 50%;
+  height: 200rpx;
+  /* background-color: wheat; */
+  margin-left: 10rpx;
+  /* border-style: ridge; */
+  /* border-color: */
+  /* border-width: thin; */
+}
+.nick-name {
+  /* background-color: rgb(12, 82, 148); */
+  width: auto;
+  height: 50rpx;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  /* background-color: violet; */
+}
+.user-integral {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+  height: 200rpx;
+  margin-top: 70rpx;
+  border-top: solid 3px #efefef;
+  border-bottom: solid 3px #efefef;
+}
+.user-integral-text {
+  text-align: center;
+  font-weight: bold;
+  height: 100rpx;
+  margin-top: 20rpx;
+  /* background-color: brown; */
+}
+.change-integral {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+  height: 200rpx;
+  border-bottom: solid 3px #efefef;
+}
+.change-integral-text {
+  text-align: center;
+  font-weight: bold;
+  height: 100rpx;
+  margin-top: 20rpx;
+}
+.input-integral-line {
+  display: flex;
+  flex-direction: row;
+  width: 300rpx;
+}
+.new-integral {
+  margin: auto;
+  height: 70rpx;
+  width: 200rpx;
+  border-radius: 20rpx;
+  margin-top: 10rpx;
+  background-color: #eeeeee;
+}
+.change-integral-input {
+  border-radius: 20rpx;
+  background-color: #eeeeee;
+  height: 70rpx;
+  width: auto;
+  margin-left: 30rpx; 
+}
+.btn-change {
+  width: 10rpx;
+}

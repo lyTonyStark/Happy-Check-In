@@ -1,0 +1,100 @@
+/* pages/taskForm/task-form.wxss */
+.from-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10rpx;
+  height: auto;
+}
+.real-user-name {
+  margin: auto;
+  height: 70rpx;
+  width: 500rpx;
+  border-radius: 20rpx;
+  background-color: #eeeeee;
+}
+.real-name-input {
+  border-radius: 20rpx;
+  background-color: #eeeeee;
+  height: 70rpx;
+  width: auto;
+  margin-left: 30rpx;
+}
+.phone-number {
+  margin: auto;
+  height: 70rpx;
+  width: 500rpx;
+  border-radius: 20rpx;
+  margin-top: 10rpx;
+  background-color: #eeeeee;
+}
+.phone-number-input {
+  border-radius: 20rpx;
+  background-color: #eeeeee;
+  height: 70rpx;
+  width: auto;
+  margin-left: 30rpx;
+}
+.choose-the-task {
+  margin-top: 30rpx;
+  margin-left: 120rpx;
+  margin-bottom: 30rpx;
+}
+.consumer-name {
+  margin: auto;
+  height: 70rpx;
+  width: 500rpx;
+  border-radius: 20rpx;
+  background-color: #eeeeee;
+  margin-bottom: 20rpx;
+}
+.consumer-name-input {
+  border-radius: 20rpx;
+  background-color: #eeeeee;
+  height: 70rpx;
+  width: auto;
+  margin-left: 30rpx;
+}
+.section {
+  /* background-color: aqua; */
+  width: 500rpx;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.picker {
+  background-color: #eeeeee;
+  /* margin: auto; */
+}
+.user-region {
+  margin: auto;
+  height: 70rpx;
+  width: 500rpx;
+  border-radius: 20rpx;
+  margin-top: 10rpx;
+  background-color: #eeeeee;
+}
+.region-input {
+  border-radius: 20rpx;
+  background-color: #eeeeee;
+  height: 70rpx;
+  width: auto;
+  margin-left: 30rpx;
+}
+.user-company {
+  margin: auto;
+  height: 70rpx;
+  width: 500rpx;
+  border-radius: 20rpx;
+  margin-top: 10rpx;
+  background-color: #eeeeee;
+}
+.company-input {
+  border-radius: 20rpx;
+  background-color: #eeeeee;
+  height: 70rpx;
+  width: auto;
+  margin-left: 30rpx;
+}
+.btn-area {
+  margin-top: 50rpx;
+}

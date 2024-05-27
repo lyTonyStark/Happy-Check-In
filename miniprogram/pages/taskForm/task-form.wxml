@@ -1,0 +1,56 @@
+<!--pages/taskForm/task-form.wxml-->
+<view class="from-container">
+  <!-- 提交姓名、手机号、完成项目、完成日期、地点选择、单位（选填） -->
+  <form bindsubmit="SubTaskInfo">
+    <!-- 姓名 -->
+    <view class="real-user-name">
+      <input class="real-name-input" name="userName" type="text" placeholder="输入你的姓名"/>
+    </view>
+    <!-- 手机号 -->
+    <view class="phone-number">
+      <input class="phone-number-input" name="userPhone" type="number" placeholder="输入手机号"/>
+    </view>
+    <!-- 选择项目 -->
+    <view class="choose-the-task">
+      <text>选择完成的项目：</text>
+      <radio-group name="radio" style="display: grid;">
+        <label><radio value="口扫"/>口扫</label>
+        <label><radio value="洗牙卡"/>洗牙卡</label>
+        <label><radio value="涂氟卡"/>涂氟卡</label>
+        <label><radio value="涂氟卡"/>牙膏卡</label>
+      </radio-group>
+    </view>
+    <!-- 购卡客户姓名 -->
+    <view class="consumer-name">
+      <input class="consumer-name-input" name="consumerName" type="text" placeholder="输入购卡客户姓名"/>
+    </view>
+    <!-- 购卡客户手机 -->
+    <view class="consumer-name">
+      <input class="consumer-name-input" name="consumerPhone" type="text" placeholder="输入客户联系方式"/>
+    </view>
+    <!-- 选择日期 -->
+    <view class="section">
+      <view class="section_title">
+        <text>完成时间：</text>
+      </view>
+      <picker mode="date" name="picker" value="{{date}}" start="2022-09-01" end="2100-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          {{date}}
+        </view>
+      </picker>
+    </view>
+    <!-- 输入地区 -->
+    <view class="user-region">
+      <input class="region-input" name="userRegion" type="text" placeholder="输入所在的省市区"/>
+    </view>
+    <!-- 输入单位名 -->
+    <view class="user-company">
+      <input class="company-input" name="userCompany" type="text" placeholder="单位名称(可不填)"/>
+    </view>
+    <!-- 提交表单按钮 -->
+    <view class="btn-area">
+      <button type="primary" formType="submit">打卡</button>
+    </view>
+  </form>
+  
+</view>

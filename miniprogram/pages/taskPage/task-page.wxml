@@ -1,0 +1,56 @@
+<!--pages/taskPage/task-page.wxml-->
+<view class="container">
+  <!-- 打卡任务区 -->
+  <view class="task-page-container">
+    <!-- 口扫打卡 -->
+    <view class="column-1">
+      <image src="/images/kousaoyi.png" style="height: 500rpx;width: 40%;"></image>
+      <view class="task-name">
+        <text style="font-size: small;">口扫</text>
+        <text style="font-size: small;">打卡</text>
+      </view>
+      <image src="/images/xiangyou.png" style="height: 40rpx;width: 40rpx;margin-top: 20rpx;" bindtap="skipToTaskForm"></image>
+    </view>
+    <!-- 口扫打卡结束 -->
+    <!-- 洗牙卡打卡 -->
+    <view class="column-2">
+      <image src="/images/xiyaka.png" style="height: 500rpx;width: 70%;"></image>
+      <view class="task-name">
+        <text style="font-size: small;">洗牙卡</text>
+        <text style="font-size: small;">打卡</text>
+      </view>
+      <image src="/images/xiangyou.png" style="height: 40rpx;width: 40rpx;margin-top: 20rpx;" bindtap="skipToTaskForm"></image>
+    </view>
+    <!-- 洗牙卡打卡结束 -->
+    <!-- 涂氟卡打卡 -->
+    <view class="column-3">
+      <image src="/images/tufuka.png" style="height: 500rpx;width: 70%;"></image>
+      <view class="task-name">
+        <text style="font-size: small;">涂氟卡</text>
+        <text style="font-size: small;">打卡</text>
+      </view>
+      <image src="/images/xiangyou.png" style="height: 40rpx;width: 40rpx;margin-top: 20rpx;" bindtap="skipToTaskForm"></image>
+    </view>
+    <!-- 涂氟卡打卡结束 -->
+    <!-- 涂氟卡打卡 -->
+    <view class="column-3">
+      <view style="height: 500rpx;width: 100%;">
+        <image src="/images/yagaoka.png" style="height: 200rpx;width: 100%;"></image>
+      </view>
+      <view class="task-name">
+        <text style="font-size: small;">牙膏卡</text>
+        <text style="font-size: small;">打卡</text>
+      </view>
+      <image src="/images/xiangyou.png" style="height: 40rpx;width: 40rpx;margin-top: 20rpx;" bindtap="skipToTaskForm"></image>
+    </view>
+    <!-- 涂氟卡打卡结束 -->
+
+  </view>
+  
+  <!-- 打卡任务区结束 -->
+  <!-- 待开发的区域 -->
+  <view class="develop-later">
+    <text style="font-size: small;font-weight: lighter;font-style: italic;">---更多功能，敬请期待---</text>
+  </view>
+  <!-- end -->
+</view>

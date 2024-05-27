@@ -1,0 +1,41 @@
+<!--pages/userLogin/user-login.wxml-->
+<view class="container">
+  <!-- 微信一键登录 -->
+  <view class="weixin-login">
+    <!-- 头像容器，初始状态下放置默认头像 -->
+    <view class="headshot">
+      <image wx:if="{{noLogin}}" src="/images/chushitouxiang.png" style="height: 200rpx;width: 200rpx;border-radius: 50%;" mode="aspectFit"></image>
+      <image wx:else src="{{headshot}}" style="height: 200rpx;width: 200rpx;border-radius: 50%;" mode="aspectFit"></image>
+    </view>
+    <!-- 昵称容器，点击“此处登录”即可发起微信授权登录 -->
+    <view class="nick-name">
+      <text wx:if="{{noLogin}}" style="font-weight: bold;" bindtap="login">点击此处登录</text>
+      <text wx:else style="font-weight: bold;">{{nickName}}</text>
+    </view>
+  </view>
+  <!-- 微信一键登录结束 -->
+  <!-- 查看积分 -->
+  <view class="user-integral">
+    <text class="user-integral-text">累计金元宝</text>
+    <text class="user-integral-text" wx:if="{{noLogin}}">--</text>
+    <text class="user-integral-text" wx:else>{{userIntegral}}</text>
+  </view>
+  <!-- 查看积分结束 -->
+  <!-- 手动修改 -->
+  <view class="change-integral">
+    <text class="change-integral-text">重算金元宝</text>
+    <form bindsubmit="btnChangeIntegral">
+      <view class="input-integral-line">
+        <view class="new-integral">
+          <input value="{{newIntegral}}" type="number" class="change-integral-input" name="newIntegral" placeholder="输入金元宝" />
+        </view>
+        <view class="btn-change">
+          <button type="primary" formType="submit">更新</button>
+        </view>
+      </view>
+    </form>
+  </view>
+  <!-- 手动修改结束 -->
+  <!-- 敬请期待 -->
+  <text class="more-function" style="text-align: center;margin-top: 20rpx;font-style: italic;font-weight: lighter;">--更多功能 敬请期待--</text>
+</view>

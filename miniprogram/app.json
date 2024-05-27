@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/taskPage/task-page",
+    "pages/userLogin/user-login",
+    "pages/taskForm/task-form"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "快乐打卡",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/taskPage/task-page",
+        "text": "打卡页",
+        "iconPath": "images/renwuye.png",
+        "selectedIconPath": "images/renwuye-active.png"
+      },
+      {
+        "pagePath": "pages/userLogin/user-login",
+        "text": "账户",
+        "iconPath": "images/zhanghao.png",
+        "selectedIconPath": "images/zhanghao-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

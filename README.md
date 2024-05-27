@@ -1,2 +1,22 @@
-# Happy-Check-In
-complete tasks and punch in to increase personal points
+# 云开发 quickstart
+
+这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
+
+- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
+- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
+- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
+
+## 参考文档
+
+- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+
+## 积分增加和更新方法 ——V1.0.0
+- 表单提交数据到数据库
+- 从数据库获取数据中的radio，判断是哪个radio
+- 增加积分
+
+## 优化部分内容 ——V1.0.1
+- 打卡表单中加入"输入购卡客户姓名"
+- 将"积分"更名为"金元宝"
+
+## 新增任务“牙膏年卡”——V2.0.1
